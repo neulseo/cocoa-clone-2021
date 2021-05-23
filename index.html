@@ -8,6 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:03</span>
+        </div>
+        <div class="status-bar__column">
+            <span>87%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h2 class="welcome-header__title">Welcome to CocoaTalk</h2>
+        <p class="welcome-header__text">If you have a Cocoa Account,<br> log in with your email or phone number.</p>
+    </header>
+
+    <form action="home.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="Email or phone number">
+        <input name="password" required type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+        <a href="#">Find Cocoa Account or Password</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
