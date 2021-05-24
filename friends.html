@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <title>Friends</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:03</span>
+        </div>
+        <div class="status-bar__column">
+            <span>87%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h2 class="screen-header__title">Friends</h2>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"> Friends' Names Display </i>
+        <i class="fas fa-chevron-right"></i>
+    </a>
+
+    <div class="user-component">
+        <div class="user-component__column">
+            <img src="img/wanda.png" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+                <h4 class="user-component__title">Wanda M.</h4>
+                <h6 class="user-component__subtitle">Not Available</h6>
+            </div>
+        </div>
+        <div class="user-component__column"></div>
+    </div>
+
+    <!-- Main -->
+    <main class="friends-screen">
+
+        <div class="user-component">
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                    <span>Favorites</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/vision.PNG" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Vision</h4>
+                    <h6 class="user-component__subtitle"> </h6>
+                </div>
+            </div>
+            <!-- <div class="user-component__column">
+                <span>5</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+            </div> -->
+        </div>
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <div class="friends-screen__channel">
+                    <div class="friends-screen__channel-header">
+                        <span>Friends</span>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span>5</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__li"><a class="nav__a" href="#"><i class="far fa-user fa-lg"></i></a></li>
+            <!--User home-->
+            <li class="nav__li"><a class="nav__a" href="#"><span class="nav__notification">2</span><i
+                        class="far fa-comments fa-lg"></i></a></li>
+            <!--Chats-->
+            <li class="nav__li"><a class="nav__a" href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <!--Search-->
+            <li class="nav__li"><a class="nav__a" href="#"><i class="fas fa-cog fa-lg"></i></a></li>
+            <!--Settinge-->
+        </ul>
+    </nav>
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

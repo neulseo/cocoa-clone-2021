@@ -1,5 +1,11 @@
-@import "nav-bar.css";
-@import "friends.css";
+/* Components */
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/screen-header.css";
+
+/* Screens */
+@import "screens/friends.css";
+
 
 * {
     /* Color */
@@ -18,18 +24,20 @@
     --animation-duration: 400ms;
 
     /* Fonts */
-    font-family: 'Mate SC', serif;
+    font-family: 'Mate SC', sans-serif;
 }
 
 body {
     color: var(--color-lightgrey);
     background-color: var(--color-black);
+    margin: 10px 0px;
 }
 
 .status-bar {
     display: flex;
     justify-content: space-between;
     opacity: 0.7;
+    margin: 0px 10px;
 }
 
 .welcome-header {
@@ -91,24 +99,4 @@ body {
     text-decoration: none;
     color: grey;
     font-size: 14px;
-}
-
-
-/* screen-header */
-.screen-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 10px;
-    padding-left: 10px;
-}
-
-.screen-header__icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0px 10px;
-}
-
-.screen-header__icons span {
-    padding: 0px 10px;
 }
