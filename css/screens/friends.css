@@ -23,8 +23,3 @@
 .friends-screen__channel {
     margin: 25px 0px 0px;
 }
-
-#friendsnumber {
-    align-items: flex-start;
-    border: 2px solid pink;
-}
