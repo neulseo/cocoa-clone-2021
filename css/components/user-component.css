@@ -6,11 +6,25 @@
     padding: 0px 10px;
 }
 
+.user-component__avatar,
+.user-component__column {
+    cursor: pointer;
+}
+
+.user-component__column-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 .chatuser-component {
     display: flex;
     justify-content: space-between;
     margin: 10px 25px;
     padding: 0px 10px;
+    transition: all 250ms ease-in-out;
 }
 
 .chatuser-component:hover {
@@ -25,18 +39,17 @@
 #friends-toggle {
     border-bottom: 1px solid grey;
     margin-bottom: 20px;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
 }
 
 .user-component__column {
     display: flex;
     align-items: center;
-
 }
 
 .user-component__column:last-child {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .user-component__avatar {
