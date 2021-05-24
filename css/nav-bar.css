@@ -1,0 +1,58 @@
+* {
+    /* Color */
+    --color-lightgrey: rgb(239, 241, 245);
+    --color-darkgrey: #404445;
+    --color-black: #090506;
+    --color-beige: #fff7f0;
+    --color-scarlet: #ff3d3d;
+    --color-lightred: #c62f2f;
+    --color-red: #a52727;
+    --color-darkred: #7f0f0b;
+    --color-pink: #fc98b0;
+    --color-gold: #fc0;
+}
+
+.nav {
+    background-color: transparent;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.nav__ul {
+    padding: 15px 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: var(--color-lightgrey);
+    text-shadow: #fc98b0 1px 0 12px;
+}
+
+.nav__a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    position: relative;
+    font-size: large;
+}
+
+.nav__notification {
+    background-color: var(--color-scarlet);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 17px;
+    bottom: 10px;
+}
+
+/* chat screen */
+#chat-screen {
+    background-color: pink;
+}

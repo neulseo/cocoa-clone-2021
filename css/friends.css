@@ -1,0 +1,14 @@
+/* home friends at display */
+#friends-display-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: whitesmoke;
+    color: grey;
+}
+
+.fa-info-circle:before {
+    color: lightgrey;
+}
