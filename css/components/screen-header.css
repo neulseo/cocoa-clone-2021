@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 25px;
+    text-shadow: #FC0 1px 0 12px;
 }
 
 .screen-header__icons {

@@ -1,15 +1,42 @@
 .user-component {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     margin: 10px 25px;
+    padding: 0px 10px;
+}
+
+.chatuser-component {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+    padding: 0px 10px;
+}
+
+.chatuser-component:hover {
+    background-color: var(--color-darkgrey);
+}
+
+#user-myself {
+    margin-top: 25px;
+}
+
+#favorites-toggle,
+#friends-toggle {
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
 }
 
 .user-component__column {
     display: flex;
     align-items: center;
-    /* margin-top: 20px; */
-    /* border: 2px solid pink; */
+
+}
+
+.user-component__column:last-child {
+    display: flex;
+    align-items: flex-end;
 }
 
 .user-component__avatar {

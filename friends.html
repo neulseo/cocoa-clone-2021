@@ -40,7 +40,7 @@
         <i class="fas fa-chevron-right"></i>
     </a>
 
-    <div class="user-component">
+    <div class="user-component" id="user-myself">
         <div class="user-component__column">
             <img src="img/wanda.png" class="user-component__avatar user-component__avatar--sm" />
             <div class="user-component__text">
@@ -54,13 +54,19 @@
     <!-- Main -->
     <main class="friends-screen">
 
-        <div class="user-component">
+        <!-- Favorites -->
+        <div class="user-component" id="favorites-toggle">
             <div class="friends-screen__channel">
                 <div class="friends-screen__channel-header">
                     <span>Favorites</span>
                 </div>
             </div>
+            <div class="user-component__column">
+                <span></span>
+                <i class="fas fa-chevron-down fa-xs"></i>
+            </div>
         </div>
+
 
         <div class="user-component">
             <div class="user-component__column">
@@ -70,26 +76,29 @@
                     <h6 class="user-component__subtitle"> </h6>
                 </div>
             </div>
-            <!-- <div class="user-component__column">
-                <span>5</span>
-                <i class="fas fa-chevron-right fa-xs"></i>
-            </div> -->
         </div>
 
-        <div class="user-component">
-            <div class="user-component__column">
-                <div class="friends-screen__channel">
-                    <div class="friends-screen__channel-header">
-                        <span>Friends</span>
-                    </div>
+        <!-- Friends -->
+        <div class="user-component" id="friends-toggle">
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                    <span>Friends</span>
                 </div>
             </div>
             <div class="user-component__column">
                 <span>5</span>
-                <i class="fas fa-chevron-right"></i>
+                <i class="fas fa-chevron-right fa-xs"></i>
             </div>
-
         </div>
+        <!-- <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/vision.PNG" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Vision</h4>
+                    <h6 class="user-component__subtitle"> </h6>
+                </div>
+            </div>
+        </div> -->
 
 
 
@@ -97,15 +106,15 @@
 
     <nav class="nav">
         <ul class="nav__ul">
-            <li class="nav__li"><a class="nav__a" href="#"><i class="far fa-user fa-lg"></i></a></li>
-            <!--User home-->
-            <li class="nav__li"><a class="nav__a" href="#"><span class="nav__notification">2</span><i
-                        class="far fa-comments fa-lg"></i></a></li>
+            <!--Friends-->
+            <li class="nav__li"><a class="nav__a" href="friends.html"><i class="far fa-user fa-lg"></i></a></li>
             <!--Chats-->
-            <li class="nav__li"><a class="nav__a" href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="nav__li"><a class="nav__a" href="chats.html"><span class="nav__notification">2</span><i
+                        class="far fa-comment fa-lg"></i></a></li>
             <!--Search-->
-            <li class="nav__li"><a class="nav__a" href="#"><i class="fas fa-cog fa-lg"></i></a></li>
-            <!--Settinge-->
+            <li class="nav__li"><a class="nav__a" href="search.html"><i class="fas fa-search fa-lg"></i></a></li>
+            <!--Setting-->
+            <li class="nav__li"><a class="nav__a" href="settings.html"><i class="fas fa-cog fa-lg"></i></a></li>
         </ul>
     </nav>
 
