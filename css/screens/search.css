@@ -1,26 +1,3 @@
-.search-icons {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    padding-bottom: 31px;
-    /* border-bottom: var(--border-line); */
-}
-
-.search-icons__icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.search-icons__icon i {
-    font-size: 30px;
-}
-
-.search-icons__icon span {
-    margin-top: 25px;
-}
-
 .search-main {
     display: flex;
     flex-direction: column;
