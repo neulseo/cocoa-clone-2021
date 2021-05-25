@@ -1,8 +1,6 @@
 .user-component {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    margin: 10px 25px;
     padding: 0px 10px;
 }
 
@@ -22,7 +20,6 @@
 .chatuser-component {
     display: flex;
     justify-content: space-between;
-    margin: 18px 25px;
     padding: 0px 10px;
     transition: all 250ms ease-in-out;
 }
