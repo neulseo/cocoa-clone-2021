@@ -1,3 +1,14 @@
 .settings-screen .icon-icons {
     margin-top: 23px;
 }
+
+.icon-list__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: var(--border-line);
+}
+
+.icon-list__box i {
+    margin: 20px 25px;
+}
