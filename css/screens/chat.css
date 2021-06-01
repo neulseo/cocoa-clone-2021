@@ -5,10 +5,19 @@
 
 #chat-screen .status-bar,
 #chat-screen .screen-header {
-    background-color: transparent;
+    top: 0;
+    background-color: var(--color-darkgrey);
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+}
+
+#chat-screen .status-bar {
+    z-index: 2;
+}
+
+#chat-screen .status-header {
+    z-index: 1;
 }
 
 #chat-header {
@@ -17,8 +26,6 @@
 
 #chat-header__column {
     width: 33%;
-    /* display: flex;
-    align-items: center; */
 }
 
 #chat-header__column:first-child {
@@ -36,4 +43,26 @@
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
+}
+
+.main-chat {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Timestamp */
+.chat__timestamp {
+    background-color: gray;
+    color: var(--color-lightgrey);
+    text-shadow: 0px 1px 10px var(--color-scarlet);
+    box-shadow: 0px 1px 10px var(--color-scarlet);
+    opacity: 0.7;
+    z-index: -1;
+    padding: 7px;
+    border-radius: 15px;
+    text-align: center;
+    width: 180px;
 }
