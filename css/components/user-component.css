@@ -22,6 +22,7 @@
     justify-content: space-between;
     padding: 10px 8px;
     transition: all 250ms ease-in-out;
+    text-decoration-line: none;
 }
 
 .chatuser-component:hover {
