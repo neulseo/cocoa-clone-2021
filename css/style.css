@@ -10,7 +10,7 @@
 @import "screens/search.css";
 @import "screens/variables.css";
 @import "screens/settings.css";
-
+@import "screens/chat.css";
 
 * {
     /* Color */
@@ -46,10 +46,35 @@ body {
     display: flex;
     justify-content: space-between;
     opacity: 0.7;
-    margin: 0px 10px;
 }
 
-.welcome-header {
+.status-bar__column {
+    width: 33%;
+}
+
+.status-bar__column:first-child {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.status-bar__column:nth-child(2) {
+    text-align: center;
+}
+
+.status-bar__column:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.status-bar__column i {
+    display: flex;
+    align-items: center;
+    margin: 0px 3px;
+}
+
+.status-bar__column .welcome-header {
     margin: 3% 0px;
     padding-bottom: 3px;
     text-align: center;
