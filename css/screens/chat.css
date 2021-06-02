@@ -65,4 +65,130 @@
     border-radius: 15px;
     text-align: center;
     width: 180px;
+    margin-bottom: 22px;
+}
+
+/* Message */
+.message-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.message-row img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.message-row__content {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.message__author {
+    display: block;
+    margin-bottom: 3px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.message__bubble {
+    height: 20px;
+    background-color: black;
+    padding: 8px 13px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    font-size: 18px;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__time {
+    margin: 0px 6px 3px 6px;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+/* Chat from Me */
+.message-row--me {
+    justify-content: flex-end;
+}
+
+.message-row--me .message__bubble {
+    background-color: var(--color-darkred);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 10px;
+}
+
+.message-row--me .message__info {
+    flex-direction: row-reverse;
+}
+
+
+/* Reply */
+.reply {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    color: var(--color-darkgrey);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.reply .reply__column:first-child {
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.reply .reply__column:last-child {
+    width: 93%;
+    position: relative;
+}
+
+.reply input {
+    height: 30px;
+    width: 99%;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.reply__column:last-child button,
+.reply__column:last-child>i {
+    position: absolute;
+    right: -1px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.reply__column:last-child>i {
+    right: 34px;
+    top: 11px;
+}
+
+.reply__column button {
+    background-color: var(--color-scarlet);
+    color: black;
+    border: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.reply input,
+.reply__column button:focus,
+.reply__column button:active {
+    outline: none;
 }
